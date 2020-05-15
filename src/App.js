@@ -254,8 +254,8 @@ const App = () => {
   // firebase.auth().signOut();
 
   return (
-
-    (inventory === null) ? null :
+    
+    (inventory === null) ? <h1>hello</h1> :
 
 
       <Container>
